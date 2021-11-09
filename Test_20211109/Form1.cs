@@ -75,7 +75,7 @@ namespace Test_20211109
             listBox1.Items.Clear();
             foreach (var u in ucty)
             {
-                listBox1.Items.Add($"{u.Jmeno} ({u.Aktualneucet} Kč");
+                listBox1.Items.Add($"{u.Jmeno} {u.Aktualneucet} Kč");
             }
         }
 
